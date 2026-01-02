@@ -27,4 +27,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: "us-west-2"
-        run: terraform destroy -auto-approve -var="bucket_name=hatimabu-static-website-001"
+        run: terraform destroy -auto-approve -var="bucket_name=benberry"
