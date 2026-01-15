@@ -16,6 +16,7 @@ It demonstrates core Infrastructure-as-Code concepts and serves as a clean, mini
 
 ## 📁 Project Structure
 
+```hcl
 AWS-s3-static-website/
 ├── infra/
 │   ├── main.tf                 # S3 bucket, CloudFront distribution, OAI, policies
@@ -25,6 +26,7 @@ AWS-s3-static-website/
 ├── .github/
 │   └── workflows/              # GitHub Actions for CI/CD (optional)
 └── readme.md                   # Project documentation
+```
 
 ## 🛠️ Requirements
 
