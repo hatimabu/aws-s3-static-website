@@ -16,14 +16,15 @@ It demonstrates core Infrastructure-as-Code concepts and serves as a clean, mini
 
 ## 📁 Project Structure
 
-aws-s3-static-website/
-│
-├── main.tf                 # S3 bucket, CloudFront distribution, OAI, policies
-├── variables.tf            # Input variables (bucket name, region)
-├── outputs.tf              # Website URLs (CloudFront + direct S3)
-├── index.html              # Static website content
-├── terraform.tfstate       # Terraform state file
-└── .github/workflows/      # GitHub Actions for CI/CD
+AWS-s3-static-website/
+├── infra/
+│   ├── main.tf                 # S3 bucket, CloudFront distribution, OAI, policies
+│   ├── variables.tf            # Input variables (bucket name, region)
+│   ├── outputs.tf              # Website URLs (CloudFront + direct S3)
+│   └── index.html              # Static website content
+├── .github/
+│   └── workflows/              # GitHub Actions for CI/CD (optional)
+└── readme.md                   # Project documentation
 
 ## 🛠️ Requirements
 
